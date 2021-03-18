@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<block>
+  <name>NRZS Encode</name>
+  <key>kiss_nrzs_encode</key>
+  <category>kiss</category>
+  <import>import kiss</import>
+  <make>kiss.nrzs_encode()</make>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>
