@@ -38,6 +38,8 @@ GR_PYTHON_INSTALL(
     hdlc_framer.py
     nrzi_encode.py
     nrzi_decode.py
+    nrzs_encode.py
+    nrzs_decode.py
     hdlc_deframer.py
     check_address.py DESTINATION ${GR_PYTHON_DIR}/kiss
 )
